@@ -1,4 +1,5 @@
 function isPalindrome(word) {
+    // Write your algorithm here
   const le = word.length;
   
   if (le == 0 || le == 1){
@@ -17,12 +18,12 @@ function isPalindrome(word) {
     console.log(true)
     return true;
   }
-  // Write your algorithm here
+
 }
 isPalindrome("madam")
 /* 
   Add your pseudocode here
-  1. check if the input is an empty string or one letter and return true
+  1. check if the input is an empty string or one character and return true
 
   2. if the string has more than two characters, 
      compare the last and first, second and second last and so on recursively.
